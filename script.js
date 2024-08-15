@@ -24,7 +24,7 @@ submitBtn.addEventListener("click", () => {
       iconPicture.appendChild(div);
 
       document.getElementById("city").innerText = cityName;
-      document.getElementById("temp").innerText = far.toFixed(2);
+      document.getElementById("temp").innerText = far.toFixed(0);
       document.getElementById("des").innerText = description;
       document.getElementById("input-element").value = " ";
     });
